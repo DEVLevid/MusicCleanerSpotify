@@ -4,14 +4,7 @@ import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const app = express();
-
-const clientId = 'be04db1a0c07447f92cb5d2d7eb524c0';
-const clientSecret = '9fa4eb9256d34b258ccd17fc539b24aa';
-const redirectUri = 'https://caa1-190-102-52-164.ngrok-free.app/callback';
-
-const playlistId = '62UM7Dd9Uy3lPaiWSwCZVn';
-const userIdToRemove = '223mzmj5xwozpfwckhn6g3zja'; // ID do usuário a remover
+const app = express(); // ID do usuário a remover
 
 let accessToken = '';
 
