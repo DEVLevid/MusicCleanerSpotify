@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const app = express(); // ID do usuário a remover
+const app = express(); 
 
 let accessToken = '';
 
